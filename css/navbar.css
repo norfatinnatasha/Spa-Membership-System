@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+ * {box-sizing: border-box;} 
+
+/* Style the navbar */ 
+.topnav { 
+ overflow: hidden; 
+ background-color: #ccc; 
+} 
+.topnav ul{ 
+ list-style: none; 
+ background: #C05D18; 
+ padding: 0; 
+ margin: 0; 
+ text-align: center; 
+}
+.topnav li{ 
+ display: inline-block; 
+} 
+/* Navbar links */ 
+.topnav a { 
+ float: left; 
+ display: block; 
+ color: white; 
+ text-align: center; 
+ padding: 14px 16px; 
+ text-decoration: none; 
+ font-size: 17px; 
+} 
+/* Navbar links on mouse-over */ 
+.topnav a:hover { 
+ background-color: #F2B869; 
+ color: black; 
+} 
+
+/* logout */ 
+.logoutLblPos{ 
+ position:fixed; 
+ right:10px; 
+ top:5px; 
+} 
